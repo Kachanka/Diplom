@@ -5,7 +5,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 import allure
-from config import BASE_URL, REGISTER_URL
+from test.config import BASE_URL, REGISTER_URL
 
 @pytest.fixture(scope="function")
 def driver():

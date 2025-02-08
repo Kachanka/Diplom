@@ -1,7 +1,7 @@
 import requests
 import pytest
 import allure
-from config import API_BASE_URL, API_TOKEN, HEADERS
+from test.config import API_BASE_URL, API_TOKEN, HEADERS
 
 @allure.feature("API Тесты")
 @allure.story("Поиск фильма по ID")
